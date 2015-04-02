@@ -10,6 +10,7 @@ private:
 public:
     void setvalues(int a, int b);
     int area();
+    int squareArea(int a);
 
 };
 
@@ -20,7 +21,10 @@ void test::setvalues(int a,int b){
 }
 
 int test::area(){
-return width*height;
+    return width*height;
+}
+int  test::squareArea(int a){
+    return a*a;
 }
 
 
