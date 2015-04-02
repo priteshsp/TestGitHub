@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "funcitontest.h"
 using namespace std;
 
 int width;
@@ -8,6 +8,12 @@ void setvalues(int a, int b);
 int area();
 int main()
 {
+    cout << "First Program" << endl;
+    test obj1;
+    obj1.setvalues(12,2);
+    obj1.area();
+    cout<<obj1.area();
+
     cout << "Working in TempBranch2" << endl;
 
     setvalues(1,2);
